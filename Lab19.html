@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+  <html>
+    <head>
+      <title>Movie Rental</title>
+      <link rel = "stylesheet" type = "text/css" href = "C:\Users\Marc\Desktop\HTMLCSSCREATIONS\Lab19\Lab19.css"/>
+    </head>
+    <body>
+      <div id = "container">
+
+        <div id = "header">
+          <h1>Movie Rental Shop</h1>
+        </div>
+
+        <div id = "content">
+
+          <div id = "trailer">
+            <h2>Watch Trailer</h2>
+              <a href = "https://www.youtube.com/watch?v=zLrqyfkXt_A">Only You</a>
+              <br/>
+              <br/>
+              <a href = "https://www.youtube.com/watch?v=sY1S34973zA">The Godfather</a>
+              <br/>
+              <br/>
+              <a href = "https://www.youtube.com/watch?v=wAbGAkkOgcM">Mulan</a>
+              <br/>
+              <br/>
+          </div>
+
+          <div id = "rent">
+            <h2>Rent Movie</h2>
+              <input type = "button" value = "Rent Only You" onclick="addToCart('Only You', 1.00)"/>
+              <br/>
+              <br/>
+              <input type = "button" value = "Rent The Godfather" onclick="addToCart('The Godfather', 1.00)"/>
+              <br/>
+              <br/>
+              <input type = "button" value = "Rent Mulan" onclick="addToCart('Mulan', 1.00)"/>
+              <br/>
+              <br/>
+
+          </div>
+
+        </div>
+
+        <div id = "checkout">
+          <h2>Checkout</h2>
+            <input type = "button" value = "Print Receipt(in console)" onclick="displayItemizedCart()"/>
+            <input type = "button" value = "Show Total(in console)" onclick="displayTotalCart()"/>
+        </div>
+
+      </div>
+        <script src ="C:\Users\Marc\Desktop\HTMLCSSCREATIONS\Lab19\Lab19.js">
+
+        </script>
+    </body>
+  </html>
